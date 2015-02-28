@@ -2,6 +2,8 @@
 ;; Packages
 ;;;;
 
+(global-set-key [(control h)] 'delete-backward-char)
+
 ;; Define package repositories
 (require 'package)
 (add-to-list 'package-archives
