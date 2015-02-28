@@ -6,6 +6,7 @@
 
 ;; Turn off the menu bar at the top of each frame because it's distracting
 (menu-bar-mode -1)
+(tool-bar-mode -1)
 
 ;; Show line numbers
 (global-linum-mode 1)
@@ -34,7 +35,7 @@
 ;; Uncomment the lines below by removing semicolons and play with the
 ;; values in order to set the width (in characters wide) and height
 ;; (in lines high) Emacs will have whenever you start it
-;; (setq initial-frame-alist '((top . 0) (left . 0) (width . 177) (height . 53)))
+(setq initial-frame-alist '((top . 0) (left . 0) (width . 177) (height . 53)))
 
 ;; These settings relate to how emacs interacts with your operating system
 (setq ;; makes killing/yanking interact with the clipboard
