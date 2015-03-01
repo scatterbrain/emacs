@@ -149,3 +149,4 @@
 ;; Language spesific
 (load "setup-clojure.el")
 (load "setup-js.el")
+(load "setup-erlang-syntax-check.el")
