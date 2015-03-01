@@ -4,6 +4,10 @@
 ;; a matter of preference and may require some fiddling to match your
 ;; preferences
 
+;; Typeface
+(set-default-font "Inconsolata")
+;; (set-default-font "Bitstream Vera")
+
 ;; Turn off the menu bar at the top of each frame because it's distracting
 (menu-bar-mode -1)
 (tool-bar-mode -1)
