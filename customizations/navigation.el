@@ -69,6 +69,7 @@
 (global-set-key (kbd "C-c <down>")  'windmove-down)
 
 ;; https://github.com/emacs-helm/helm
+;; http://tuhdo.github.io/helm-intro.html
 (require 'helm)
 (require 'helm-config)
 
@@ -91,5 +92,9 @@
       helm-scroll-amount                    8 ; scroll 8 lines other window using M-<next>/M-<prior>
       helm-ff-file-name-history-use-recentf t)
 
-(helm-mode 1)
 (helm-autoresize-mode 1)
+
+(global-set-key (kbd "C-x f") 'helm-buffers-list)
+;; (global-set-key (kbd "C-x C-f") 'helm-find-files)
+
+(helm-mode 1)
