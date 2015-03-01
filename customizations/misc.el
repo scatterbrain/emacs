@@ -10,3 +10,6 @@
 
 ;; Go straight to scratch buffer on startup
 (setq inhibit-startup-message t)
+
+;; Automatically refresh buffers when files change on disk
+(global-auto-revert-mode t)
