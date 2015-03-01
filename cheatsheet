@@ -1,0 +1,32 @@
+QUIT FROM COMMAND
+
+- C-g
+
+OPEN BUFFER
+
+- C-x C- f
+
+MOVING BETWEEN BUFFERS
+
+- C-x right - previous buffer
+- C-x left - next buffer
+
+SPLIT WINDOWS
+
+- C-x 2 - split
+- C-x 3 - split right
+- C-c right - move right
+- C-c left - move left
+
+EDITING
+
+- C-k - kill line
+- C-x u - undo
+
+MARKING AND CHANGING
+
+- C-M-Space - mark words forward
+
+DELETE MARKED
+
+- C-w - delete marked 

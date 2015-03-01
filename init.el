@@ -68,7 +68,13 @@
     tagedit
 
     ;; git integration
-    magit))
+    magit
+    
+    ;; erlang
+    erlang
+
+    flymake
+))
 
 ;; On OS X, an Emacs instance started from the graphical user
 ;; interface will have a different environment than a shell in a
@@ -129,6 +135,6 @@
 ;; For editing lisps
 (load "elisp-editing.el")
 
-;; Langauage-specific
+;; LangauaGe-specific
 (load "setup-clojure.el")
 (load "setup-js.el")

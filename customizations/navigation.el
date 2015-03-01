@@ -59,3 +59,11 @@
 
 ;; projectile everywhere!
 (projectile-global-mode)
+
+;; Then you'll be able to switch between windows with Shift+{left,up,down,right} arrows. Shift modifier is a parameter to windmove-default-keybindings, so you can choose another one.
+;(windmove-default-keybindings)
+(setq windmove-wrap-around t)
+(global-set-key (kbd "C-c <left>")  'windmove-left)
+(global-set-key (kbd "C-c <right>") 'windmove-right)
+(global-set-key (kbd "C-c <up>")    'windmove-up)
+(global-set-key (kbd "C-c <down>")  'windmove-down)
