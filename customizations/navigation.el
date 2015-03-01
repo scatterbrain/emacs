@@ -70,6 +70,7 @@
 
 ;; https://github.com/emacs-helm/helm
 ;; http://tuhdo.github.io/helm-intro.html
+;; https://github.com/tuhdo/emacs-c-ide-demo/blob/master/custom/setup-helm.el
 (require 'helm)
 (require 'helm-config)
 
