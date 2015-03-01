@@ -2,6 +2,11 @@ QUIT FROM COMMAND
 
 - C-g
 
+GOTO LINE
+
+- M-g g
+
+
 OPEN BUFFER
 
 - C-x C- f

@@ -76,7 +76,7 @@
     ;; helm https://github.com/emacs-helm/helm
     async
     helm
-    
+
     ;flymake
     
 ))
