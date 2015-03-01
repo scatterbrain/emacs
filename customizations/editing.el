@@ -1,5 +1,10 @@
 ;; Customizations relating to editing a buffer.
 
+;; Modify keybindings so that you can type ${} and other characters on mac
+(setq mac-option-modifier nil
+      mac-command-modifier 'meta
+      x-select-enable-clipboard t)
+
 ;; Key binding to use "hippie expand" for text autocompletion
 ;; http://www.emacswiki.org/emacs/HippieExpand
 (global-set-key (kbd "M-/") 'hippie-expand)
