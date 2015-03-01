@@ -72,11 +72,17 @@
     
     ;; erlang
     erlang
-
-    flymake
-
+    
+    ;; helm https://github.com/emacs-helm/helm
+    async
+    helm
+    
+    ;flymake
     
 ))
+
+;(require 'helm)
+(require 'helm-config)
 
 ;; On OS X, an Emacs instance started from the graphical user
 ;; interface will have a different environment than a shell in a
