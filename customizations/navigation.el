@@ -36,7 +36,7 @@
 
 ;; Don't try to match file across all "work" directories; only match files
 ;; in the current directory displayed in the minibuffer
-(setq ido-auto-merge-work-directories-length -1)
+;;(setq ido-auto-merge-work-directories-length -1)
 
 ;; Includes buffer names of recently open files, even if they're not
 ;; open now

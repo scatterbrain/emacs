@@ -74,6 +74,8 @@
     erlang
 
     flymake
+
+    
 ))
 
 ;; On OS X, an Emacs instance started from the graphical user
@@ -135,6 +137,9 @@
 ;; For editing lisps
 (load "elisp-editing.el")
 
-;; LangauaGe-specific
+;; For peepopen
+(load "peepopen.el")
+
+;; Language spesific
 (load "setup-clojure.el")
 (load "setup-js.el")
