@@ -96,6 +96,6 @@
 (helm-autoresize-mode 1)
 
 (global-set-key (kbd "C-x f") 'helm-buffers-list)
-;; (global-set-key (kbd "C-x C-f") 'helm-find-files)
+(global-set-key (kbd "C-x C-g") 'helm-find-files)
 
 (helm-mode 1)
